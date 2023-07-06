@@ -51,6 +51,6 @@ app.post("/register", (req, res) => {
 
 const PORT = process.env.PORT;
 
-app.listen(3000, () => {
+app.listen(PORT || 3000, () => {
   console.log(`App running on port ${3000}`);
 });
