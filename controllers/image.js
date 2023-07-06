@@ -1,3 +1,4 @@
+//Adding final update
 export async function askClarifai(req, res) {
   try {
     const { input } = req.body;
@@ -55,6 +56,6 @@ export function handleImage(req, res, db) {
       }
     })
     .catch((err) => {
-      res.status(400).json("Error getting entries");
+      res.status(400).json("Error getting the entries");
     });
 }

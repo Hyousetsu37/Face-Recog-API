@@ -1,3 +1,4 @@
+//Adding final update
 export function handleProfile(req, res, db) {
   const id = Number(req.params.id);
   db.select("*")
